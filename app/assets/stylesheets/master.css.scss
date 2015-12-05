@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
 
 
+body {
+  background: url(bg.png);
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 
+}
 .navbar-inverse a.navbar-brand {
   color: #89ABE3;
   font-family: "Fredericka the Great";
