@@ -12,7 +12,7 @@ body {
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 32px;
-   
+
 }
 
 .navbar {
@@ -36,7 +36,7 @@ body {
 
 .frosty {
   background:rgba(0,0,0, 0.5);
-   color:white;
+  color:white;
 }
 
 .frosty h1 {
@@ -44,6 +44,7 @@ body {
   font-weight: 100;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
+
 .frosty h2 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
@@ -51,7 +52,7 @@ body {
 }
 
 .btn {
-border-radius: 0;
+  border-radius: 0;
 
 }
 
@@ -75,6 +76,15 @@ border-radius: 0;
 
 .clr {
   clear:both;
+}
+
+.field_with_errors {
+  color: #ff3333;
+  background-color: #ffeeee;
+  border-radius: 3px;
+  padding-top: 8px;
+  margin: 10px;
+
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
