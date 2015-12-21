@@ -13,8 +13,12 @@ class Instructor::CoursesController < ApplicationController
 			render :new, :status => :unprocessable_entity
 		end
 	end
+ 	
+ 	def update
+ 	end
 
-	def show
+ 	def show
+ 		@section = Section.new
 	end
 
 	private
