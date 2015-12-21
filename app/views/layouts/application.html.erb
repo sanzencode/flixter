@@ -14,12 +14,6 @@
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <%= link_to 'YouNiversity', root_url, :class => 'navbar-brand' %>
         </div>
 
@@ -41,18 +35,7 @@
         <li><%= link_to 'Sign up', new_user_registration_path %></li>
         <% end %>
 
-<!--        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>-->
+
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -68,9 +51,47 @@
 <br class="clr" />
 <div id="footer">
   <div class="container">
+    <div class="col-xs-12 col-sm-3">
     <b>Teachers</b>
     <br />
     <%= link_to 'Teach a course', new_instructor_course_path %>
+    <br />
+    <%= link_to 'My Dashboard', dashboard_path %>
+  </div>
+  <div class="col-xs-12 col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', team_path %>
+        <br />
+        <%= link_to 'Careers', careers_path %>
+        <br />
+        <%= link_to 'Privacy Policy', privacy_path %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>Contact</b>
+        <br />
+        design@sandraharrasser.com
+        <br />
+        One Anywhere Square
+        <br />
+        Chico CA, 95928
+      </div>
+      <div class="col-xs-12 col-sm-3 social">
+        <b>Social</b>
+        <br />
+        <br />
+        <%= link_to 'https://github.com/sanzencode' do %>
+        <%= image_tag 'github.png', :class => 'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.facebook.com/sandra.harrasser' do %>
+        <%= image_tag 'facebook.png', :class => 'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.linkedin.com/in/sandra-harrasser-64544b14' do %>
+        <%= image_tag 'linkedin.png', :class => 'social-button' %>
+        <% end %>
+        <%= link_to 'https://plus.google.com/u/0/117590530055630800085/posts/p/pub' do %>
+        <%= image_tag 'googleplus.png', :class => 'social-button' %>
+        <% end %>
   </div>
 </div>
 
